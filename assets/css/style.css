@@ -1,3 +1,57 @@
 .jumbotron {
     text-align: center;
+    margin-top: 20px;
+    font-family: 'Julius Sans One',
+    sans-serif;
+    color: slategrey;
+    background-color: black;
+}
+
+.item {
+    display: inline-block;
+    margin: 15px;
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.well {
+    background-color: white;
+    color: black;
+}
+
+.goat {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Patua One', cursive;
+    font-size: larger;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#goat-form {
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+#gifButtons {
+    font-family: 'Julius Sans One',
+    sans-serif;
+    font-size: larger;
 }

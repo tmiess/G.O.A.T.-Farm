@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Hammersmith+One|Julius+Sans+One|Patua+One|Philosopher:700|Righteous" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <title>Goat Gifs</title>
@@ -15,76 +15,77 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
 
-    <div class="row">
-
-        <div class="jumbotron">
-            <h1>Goat Gif Memorial</h1>
-        </div>
-
-    </div>
-
-    <div class="row">
-
-        <div class="col-xs-2">
-
-        </div>
-        <div class="col-xs-8">
-            <form id="goat-form">
-                <label for="goat-input">Add a Goat</label>
-                <input type="text" id="goat-input"><br>
-
-                <!-- Button triggers new movie to be added -->
-                <input id="add-goat" type="submit" value="Bahhhh">
-            </form>
-        </div>
-
-        <div class="col-xs-2">
+            <div class="jumbotron">
+                <h1>The G.O.A.T. Farm</h1>
+                <hr>
+                <h3>Home of the Greatest Of All Time</h3>
+            </div>
 
         </div>
 
-    </div>
+        <div class="row">
 
-    <hr>
-
-    <div class="row">
-
-        <div class="col-xs-2">
-
-        </div>
-
-        <div class="col-xs-8">
-            <!--buttons go here-->
-            <div id="gifButtons"></div>
-        </div>
-
-        <div class="col-xs-2">
-
-        </div>
-
-    </div>
-
-    <hr>
-
-    <div class="row">
-
-        <div class="col-xs-2">
-
-        </div>
-
-        <div class="col-xs-8">
-            <!--gifs go here-->
-            <div id="displayGifs">
-
+            <div class="col-xs-2">
 
             </div>
+            <div class="col-xs-8">
+                <form id="goat-form">
+                    <label for="goat-input">Who belongs in The Herd?</label>
+                    <input type="text" id="goat-input" placeholder="i am GOAT">
+                    <input id="add-goat" type="submit" value="BahBah">
+                </form>
+            </div>
+
+            <div class="col-xs-2">
+
+            </div>
+
         </div>
 
-        <div class="col-xs-2">
+        <hr>
+
+        <div class="row">
+
+            <div class="col-xs-1">
+
+            </div>
+
+            <div class="col-xs-10">
+
+                <div>
+                    <h2>The Herd</h2>
+                </div>
+
+                <div class="well" id="gifButtons">
+                    <!--buttons go here-->
+                </div>
+
+            </div>
+
+            <div class="col-xs-1">
+
+            </div>
 
         </div>
 
+        <hr>
+
+        <div class="row">
+
+            <div class="col-xs-12">
+
+                <div id="displayGifs">
+                    <!--gifs go here-->
+                </div>
+
+            </div>
+
+        </div>
     </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/script.js"></script>

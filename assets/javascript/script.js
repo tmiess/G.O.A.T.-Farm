@@ -1,7 +1,10 @@
-//this is a list of the GOAT (Greatest of all Time) players in their respective sports.
+//this is a list of the my GOAT (Greatest of all Time) players in their respective sports.
+//GOAT is a subjective topic (except for Michael Jordan), so we will allow the user to grow their own goats
 
 var topics = ["michael jordan", "messi", "barry bonds", "tiger woods", "roger federer", "aaron rodgers", "dale earnhardt", "michael phelps", "usain bolt"];
 
+
+//creates buttons from topics array
 function renderButtons() {
 
     $("#gifButtons").empty();
@@ -34,9 +37,23 @@ $(document).ready(function() {
 
     console.log("test.js connected");
 
+    // taking input from user and pushing it to array
+    $("#add-goat").on("click", function(event) {
+
+        event.preventDefault();
+
+        // This line grabs the input from the textbox
+        var goat = $("#goat-input").val().trim();
+
+        // Adding goat from the input box to our array
+        topics.push(goat);
+
+        // calling renderButtons which produces the buttons
+        renderButtons();
+    });
+
     $(document).on("click", ".goat", function() {
-        var person = $(this).text();
-        alert("button works");
+        var person = $(this).text();;
         console.log(person + "button works");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + person + "&api_key=dc6zaTOxFJmzC&limit=10";
         console.log(queryURL);
@@ -47,6 +64,8 @@ $(document).ready(function() {
         }).done(function(response) {
 
             var results = response.data;
+
+            //displays new gifs
 
             for (var i = 0; i < results.length; i++) {
 
@@ -75,18 +94,19 @@ $(document).ready(function() {
                 newGif.attr("data-still", stillUrl);
                 newGif.attr("class", "gif");
 
-                //prepend new gif and rating to previous gif and rating
+                //prepend new gif and new rating to previous gif and previous rating
                 gifDiv.prepend(p);
                 gifDiv.prepend(newGif);
 
                 //display new gif to displayGif div
                 $("#displayGifs").prepend(gifDiv);
-
+                $("#displayGifs").prepend(gifDiv);
             }
         });
 
     });
 
+    // pauses/plays gifs
     $(document).on("click", ".gif", function() {
 
         var state = $(this).attr("data-state");
@@ -103,19 +123,6 @@ $(document).ready(function() {
             $(this).attr("data-state", "still");
         }
 
-    });
-
-    $("#add-goat").on("click", function(event) {
-        alert("button works");
-        event.preventDefault();
-        // This line grabs the input from the textbox
-        var goat = $("#goat-input").val().trim();
-
-        // Adding movie from the textbox to our array
-        topics.push(goat);
-
-        // Calling renderButtons which handles the processing of our movie array
-        renderButtons();
     });
 
     renderButtons();
