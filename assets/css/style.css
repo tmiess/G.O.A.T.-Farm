@@ -18,15 +18,22 @@
     color: white;
 }
 
-.well {
-    background-color: white;
+.goat {
+    padding: 0;
+    border: none;
+    background: none;
+    margin: 5px;
     color: black;
 }
 
-.goat {
-    padding: 5px;
-    margin: 5px;
-    background-color: white;
+.collapse {
+    font-family: 'Patua One', cursive;
+    font-size: larger;
+}
+
+.aboutButton {
+    background-color: black;
+    border: none;
 }
 
 p {
@@ -41,6 +48,21 @@ h2 {
     text-align: center;
     color: black;
     font-family: 'Julius Sans One', sans-serif;
+}
+
+#goat-input {
+    padding: 0;
+    background: none;
+    margin: 5px;
+    color: black;
+}
+
+#add-goat {
+    padding: 5px;
+    border: solid;
+    background-color: black;
+    margin: 5px;
+    color: white;
 }
 
 #goat-form {
