@@ -1,10 +1,11 @@
 .jumbotron {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: -20px;
     font-family: 'Julius Sans One',
     sans-serif;
-    color: slategrey;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
 .item {
@@ -19,7 +20,7 @@
 }
 
 .goat {
-    padding: 0;
+    padding: 10px;
     border: none;
     background: none;
     margin: 5px;
@@ -32,8 +33,20 @@
 }
 
 .aboutButton {
-    background-color: black;
+    background-color: white;
     border: none;
+    font-size: x-large;
+}
+
+header {
+    font-size: 100px;
+    padding: -10px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
 }
 
 p {
@@ -48,6 +61,20 @@ h2 {
     text-align: center;
     color: black;
     font-family: 'Julius Sans One', sans-serif;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+#logoat {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+#aboutGoat {
+    text-align: justify;
 }
 
 #goat-input {

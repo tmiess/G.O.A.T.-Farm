@@ -1,7 +1,7 @@
 //this is a list of the my GOAT (Greatest of all Time) players in their respective sports.
 //GOAT is a subjective topic (except for Michael Jordan), so we will allow the user to grow their own goats
 
-var topics = ["michael jordan", "messi", "barry bonds", "tiger woods", "roger federer", "aaron rodgers", "dale earnhardt", "michael phelps", "usain bolt"];
+var topics = ["Michael Jordan", "Diana Taurasi", "Messi", "Mia Hamm", "Barry Bonds", "Tiger Woods", "Roger Federer", "Serena Williams", "Aaron Rodgers", "Dale Earnhardt", "Michael Phelps", "Usain Bolt"];
 
 
 //creates buttons from topics array
