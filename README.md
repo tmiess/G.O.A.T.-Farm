@@ -4,7 +4,7 @@
 
 </br>
 
-G.O.A.T. Farm by Giftastic a simple web app designed with Materialize CSS that utilizes the Giphy API, AJAX calls, and JQuery to pull in user-specified GIFs.
+G.O.A.T. Farm is a simple web app designed with Materialize CSS that utilizes the Giphy API, AJAX calls, and JQuery to pull in user-specified GIFs.
 
 Click [here](https://tmiess.github.io/Giftastic/) to visit!
 
