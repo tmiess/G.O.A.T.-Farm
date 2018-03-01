@@ -20,7 +20,7 @@ Click [here](https://tmiess.github.io/Giftastic/) to visit!
 </p>
 </br>
 
-### Now for the fun part. Go over to the search box...
+## Now for the fun part. Go over to the search box...
 
 </br>
 <p align="center">
@@ -28,7 +28,7 @@ Click [here](https://tmiess.github.io/Giftastic/) to visit!
 </p>
 </br>
 
-## and type in the name of your GOAT and hit BahBah to add him/her to the herd. This is is all subjective, so any GOAT is welcome to join. Let's type in Einstein for this example.
+## type in the name of your GOAT, and hit *BahBah* to add him/her to the herd. This is is all subjective, so any GOAT is welcome to join. Let's type in Einstein for this example.
 
 </br>
 <p align="center">
@@ -36,7 +36,7 @@ Click [here](https://tmiess.github.io/Giftastic/) to visit!
 </p>
 </br>
 
-### The name of your GOAT will appear with all other GOATS.
+## The name of your GOAT will appear with all other GOATS.
 
 </br>
 <p align="center">
@@ -44,7 +44,7 @@ Click [here](https://tmiess.github.io/Giftastic/) to visit!
 </p>
 </br>
 
-### Now that your GOAT has joined the herd, you can click on his/her name (or any of the GOATs' names)...
+## Now that your GOAT has joined the herd, you can click on his/her name (or any of the GOATs' names)...
 
 </br>
 <p align="center">
